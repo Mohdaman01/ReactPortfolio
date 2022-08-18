@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
      <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <h1>PORTFOLIO</h1>
+        <h1>MOHD AMAN</h1>
         {/* <img src={images.logo} alt="logo" /> */}
       </div>
       <ul className='app__navbar-links'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 >
                   < HiXCircle onClick={()=>setToggle(false)} />
                   <ul>
-                  {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+                  {['home', 'about', 'contact'].map((item) => (
           <li key={item}>
              
             <a href={`#${item}`} onClick={()=>setToggle(false)}>{item}</a>
